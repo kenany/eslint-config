@@ -1,4 +1,4 @@
-# eslint-config
+# @kenan/eslint-config
 
 [![Build Status][travis-svg]][travis]
 
@@ -7,7 +7,7 @@ My eslint config.
 ## Installation
 
 ``` bash
-$ npm install eslint-config
+$ npm install @kenan/eslint-config
 ```
 
 
