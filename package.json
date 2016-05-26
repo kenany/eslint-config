@@ -1,0 +1,38 @@
+{
+  "name": "@kenan/eslint-config",
+  "version": "0.0.0",
+  "description": "KenanY's eslint config",
+  "keywords": [
+    "eslint-config"
+  ],
+  "repository": "KenanY/eslint-config",
+  "license": "MIT",
+  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE.txt"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "pretest": "npm run -s lint",
+    "test": "tape test/index.js",
+    "posttest": "npm run -s nsp",
+    "lint": "npm run -s travis-lint && npm run -s eslint",
+    "travis-lint": "travis-lint .travis.yml",
+    "eslint": "eslint index.js tape/index.js",
+    "nsp": "nsp check"
+  },
+  "dependencies": {
+    "eslint-config-defaults": "^9.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.10.2",
+    "lodash.isplainobject": "^4.0.4",
+    "nsp": "^2.4.0",
+    "tape": "^4.5.1",
+    "travis-lint": "^1.0.0"
+  }
+}
