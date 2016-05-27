@@ -22,7 +22,7 @@
     "posttest": "npm run -s nsp",
     "lint": "npm run -s travis-lint && npm run -s eslint",
     "travis-lint": "travis-lint .travis.yml",
-    "eslint": "eslint index.js tape/index.js",
+    "eslint": "eslint index.js test/index.js",
     "nsp": "nsp check"
   },
   "dependencies": {
