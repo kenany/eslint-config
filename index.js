@@ -8,6 +8,7 @@ module.exports = {
   rules: {
     'eol-last': 2,
     indent: ['error', 2],
+    'linebreak-style': [2, 'unix'],
     'no-trailing-spaces': 2,
     quotes: [2, 'single'],
     semi: 2
