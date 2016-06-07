@@ -8,6 +8,6 @@ module.exports = {
   rules: {
     indent: ['error', 2],
     quotes: [2, 'single'],
-    semi: ['error', 'always']
+    semi: 2
   }
 };
