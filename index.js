@@ -6,6 +6,7 @@ module.exports = {
     node: true
   },
   rules: {
+    'array-callback-return': 2,
     'eol-last': 2,
     indent: ['error', 2],
     'linebreak-style': [2, 'unix'],
