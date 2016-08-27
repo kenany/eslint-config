@@ -8,6 +8,7 @@ module.exports = {
   rules: {
     'array-callback-return': 2,
     'eol-last': 2,
+    'id-blacklist': 0,
     indent: ['error', 2],
     'linebreak-style': [2, 'unix'],
     'no-extra-semi': 2,
