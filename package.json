@@ -29,7 +29,7 @@
     "eslint-config-defaults": "^9.0.0"
   },
   "devDependencies": {
-    "eslint": "^2.10.2",
+    "eslint": "^3.4.0",
     "lodash.isplainobject": "^4.0.4",
     "nsp": "^2.4.0",
     "tape": "^4.5.1",
