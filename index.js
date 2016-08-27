@@ -25,6 +25,7 @@ module.exports = {
     'max-lines': 0,
     'max-statements-per-line': 0,
     'multiline-ternary': 0,
+    'newline-before-return': 0,
     'no-extra-semi': 2,
     'no-trailing-spaces': 2,
     'space-before-function-paren': [2, 'never'],
