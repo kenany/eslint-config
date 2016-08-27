@@ -24,6 +24,7 @@ module.exports = {
     'linebreak-style': [2, 'unix'],
     'max-lines': 0,
     'max-statements-per-line': 0,
+    'multiline-ternary': 0,
     'no-extra-semi': 2,
     'no-trailing-spaces': 2,
     'space-before-function-paren': [2, 'never'],
