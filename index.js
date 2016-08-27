@@ -10,6 +10,15 @@ module.exports = {
     'eol-last': 2,
     'id-blacklist': 0,
     indent: ['error', 2],
+    'keyword-spacing': [2, {
+      before: true,
+      after: true,
+      overrides: {
+        return: {after: true},
+        throw: {after: true},
+        case: {after: true}
+      }
+    }],
     'linebreak-style': [2, 'unix'],
     'no-extra-semi': 2,
     'no-trailing-spaces': 2,
