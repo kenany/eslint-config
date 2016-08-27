@@ -9,6 +9,7 @@ module.exports = {
     'array-callback-return': 2,
     'class-methods-use-this': 2,
     'eol-last': 2,
+    'func-call-spacing': 2,
     'id-blacklist': 0,
     indent: ['error', 2],
     'keyword-spacing': [2, {
