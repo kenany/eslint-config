@@ -3,7 +3,16 @@ module.exports = {
     'eslint-config-defaults'
   ].map(require.resolve),
   env: {
+    es6: true,
     node: true
+  },
+  parserOptions: {
+    ecmaVersion: 6,
+    sourceType: 'module',
+    ecmaFeatures: {
+      generators: false,
+      objectLiteralDuplicateProperties: false
+    }
   },
   rules: {
     'array-callback-return': 2,
