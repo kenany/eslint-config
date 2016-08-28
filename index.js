@@ -26,6 +26,7 @@ module.exports = {
     'max-statements-per-line': 0,
     'multiline-ternary': 0,
     'newline-before-return': 0,
+    'newline-per-chained-call': ['error', {ignoreChainWithDepth: 4}],
     'no-extra-semi': 2,
     'no-trailing-spaces': 2,
     'space-before-function-paren': [2, 'never'],
