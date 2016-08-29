@@ -32,5 +32,8 @@
     "nsp": "^2.4.0",
     "tape": "^4.5.1",
     "travis-lint": "^1.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^3.4.0"
   }
 }
