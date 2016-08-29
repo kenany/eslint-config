@@ -19,12 +19,8 @@
   "scripts": {
     "pretest": "npm run -s lint",
     "test": "tape test/index.js",
-    "posttest": "npm run -s nsp",
     "prepublish": "(in-install || eslint-find-rules --unused) && (not-in-publish && npm test)",
-    "lint": "npm run -s travis-lint && npm run -s eslint",
-    "travis-lint": "travis-lint .travis.yml",
-    "eslint": "eslint index.js test/index.js",
-    "nsp": "nsp check"
+    "lint": "eslint index.js test/index.js"
   },
   "dependencies": {},
   "devDependencies": {
@@ -32,9 +28,7 @@
     "eslint-find-rules": "^1.13.0",
     "in-publish": "^2.0.0",
     "lodash.isplainobject": "^4.0.4",
-    "nsp": "^2.4.0",
-    "tape": "^4.5.1",
-    "travis-lint": "^1.0.0"
+    "tape": "^4.5.1"
   },
   "peerDependencies": {
     "eslint": "^3.4.0"
