@@ -1,7 +1,5 @@
 module.exports = {
-  extends: [
-    'eslint-config-defaults'
-  ].map(require.resolve),
+  extends: 'eslint:recommended',
   env: {
     es6: true,
     node: true

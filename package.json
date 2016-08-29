@@ -25,9 +25,7 @@
     "eslint": "eslint index.js test/index.js",
     "nsp": "nsp check"
   },
-  "dependencies": {
-    "eslint-config-defaults": "^9.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint": "^3.4.0",
     "lodash.isplainobject": "^4.0.4",
