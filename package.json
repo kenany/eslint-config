@@ -1,6 +1,6 @@
 {
   "name": "@kenan/eslint-config",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "KenanY's eslint config",
   "keywords": [
     "eslint-config"
@@ -19,7 +19,7 @@
   "scripts": {
     "pretest": "npm run -s lint",
     "test": "tape test/index.js",
-    "prepublish": "(in-install || eslint-find-rules --unused) && (not-in-publish && npm test)",
+    "prepublish": "(in-install || eslint-find-rules --unused) && (not-in-publish || npm test)",
     "lint": "eslint *.js test/index.js"
   },
   "dependencies": {},
