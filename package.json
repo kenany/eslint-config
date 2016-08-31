@@ -20,7 +20,7 @@
     "pretest": "npm run -s lint",
     "test": "tape test/index.js",
     "prepublish": "(in-install || eslint-find-rules --unused) && (not-in-publish && npm test)",
-    "lint": "eslint index.js test/index.js"
+    "lint": "eslint *.js test/index.js"
   },
   "dependencies": {},
   "devDependencies": {
