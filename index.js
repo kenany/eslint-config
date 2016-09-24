@@ -19,7 +19,7 @@ module.exports = {
     'eol-last': 2,
     'func-call-spacing': 2,
     'id-blacklist': 0,
-    indent: ['error', 2],
+    indent: ['error', 2, {SwitchCase: 1}],
     'keyword-spacing': [2, {
       before: true,
       after: true,
