@@ -14,6 +14,7 @@ module.exports = {
   },
   rules: {
     'array-callback-return': 2,
+    'brace-style': [2, 'stroustrup', {allowSingleLine: true}],
     'class-methods-use-this': 2,
     'eol-last': 2,
     'func-call-spacing': 2,
