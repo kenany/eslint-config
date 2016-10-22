@@ -1,5 +1,5 @@
 module.exports = {
-  extends: 'eslint:recommended',
+  extends: 'semistandard',
   env: {
     es6: true,
     node: true
@@ -37,11 +37,10 @@ module.exports = {
     'newline-per-chained-call': [2, {ignoreChainWithDepth: 4}],
     'no-confusing-arrow': [2, {allowParens: true}],
     'no-duplicate-imports': 2,
-    'no-extra-semi': 2,
     'no-trailing-spaces': 2,
+    'operator-linebreak': [1, 'before'],
     'space-before-function-paren': [2, 'never'],
     'space-in-parens': [2, 'never'],
-    quotes: [2, 'single'],
-    semi: 2
+    quotes: [2, 'single']
   }
 };
