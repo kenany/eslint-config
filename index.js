@@ -5,15 +5,6 @@ module.exports = {
     'brace-style': [2, 'stroustrup', {allowSingleLine: true}],
     'class-methods-use-this': 2,
     'id-blacklist': 0,
-    'keyword-spacing': [2, {
-      before: true,
-      after: true,
-      overrides: {
-        return: {after: true},
-        throw: {after: true},
-        case: {after: true}
-      }
-    }],
     'linebreak-style': [2, 'unix'],
     'max-lines': 0,
     'max-statements-per-line': 0,
