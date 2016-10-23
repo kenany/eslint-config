@@ -12,6 +12,7 @@ module.exports = {
     'newline-before-return': 0,
     'newline-per-chained-call': [2, {ignoreChainWithDepth: 4}],
     'no-confusing-arrow': [2, {allowParens: true}],
+    'no-console': 1,
     'operator-linebreak': [1, 'before'],
     'promise/always-return': 0,
     'promise/catch-or-return': 0,
