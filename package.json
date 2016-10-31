@@ -30,7 +30,7 @@
     "in-publish": "^2.0.0"
   },
   "devDependencies": {
-    "cross-spawn": "^4.0.0",
+    "cross-spawn": "^5.0.0",
     "eslint": "^3.4.0",
     "eslint-find-rules": "^1.13.0",
     "graceful-fs": "^4.1.6",
