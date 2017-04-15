@@ -28,7 +28,7 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-node": "^4.2.2",
     "eslint-plugin-promise": "^3.3.0",
-    "eslint-plugin-standard": "^2.0.0",
+    "eslint-plugin-standard": "^3.0.1",
     "in-publish": "^2.0.0"
   },
   "devDependencies": {
