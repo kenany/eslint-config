@@ -1,7 +1,8 @@
-var eslintconfig = require('../');
 var test = require('tape');
 var isPlainObject = require('lodash.isplainobject');
 var eslint = require('eslint');
+
+const eslintconfig = require('../');
 
 test('exports an object', function(t) {
   t.plan(2);
