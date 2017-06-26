@@ -56,12 +56,9 @@ module.exports = {
 
     'no-console': 1,
     'operator-linebreak': [1, 'before'],
-    'promise/always-return': 0,
-    'promise/catch-or-return': 0,
-    'promise/no-native': 0,
-    'promise/no-return-wrap': 0,
+    'space-before-function-paren': [2, 'never'],
+
     'promise/prefer-await-to-callbacks': 0,
-    'promise/prefer-await-to-then': 0,
-    'space-before-function-paren': [2, 'never']
+    'promise/prefer-await-to-then': 0
   }
 };
