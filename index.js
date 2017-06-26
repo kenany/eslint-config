@@ -3,6 +3,8 @@ module.exports = {
     'eslint:recommended',
     'plugin:import/recommended',
     'plugin:import/react',
+    'plugin:node/recommended',
+    'plugin:promise/recommended',
     'semistandard'
   ],
   rules: {
@@ -46,6 +48,12 @@ module.exports = {
     'newline-before-return': 0,
     'newline-per-chained-call': [2, {ignoreChainWithDepth: 4}],
     'no-confusing-arrow': [2, {allowParens: true}],
+
+    // Disabled because test fixtures' dependencies are not installed, which
+    // causes this rule to fail some tests.
+    'node/no-missing-require': 0,
+    'node/no-unsupported-features': 0,
+
     'no-console': 1,
     'operator-linebreak': [1, 'before'],
     'promise/always-return': 0,
