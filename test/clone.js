@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 const crossSpawn = require('cross-spawn');
 const mkdirp = require('mkdirp');
 const path = require('path');
