@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "eslint-config-semistandard": "^11.0.0",
-    "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard": "^11.0.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-node": "^5.1.0",
     "eslint-plugin-promise": "^3.3.0",
