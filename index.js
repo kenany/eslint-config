@@ -9,7 +9,7 @@ module.exports = {
   ],
   rules: {
     'array-callback-return': 2,
-    'brace-style': [2, 'stroustrup', {allowSingleLine: true}],
+    'brace-style': [2, 'stroustrup', { allowSingleLine: true }],
     'class-methods-use-this': 2,
     'id-blacklist': 0,
 
@@ -54,15 +54,16 @@ module.exports = {
     'max-statements-per-line': 0,
     'multiline-ternary': 0,
     'newline-before-return': 0,
-    'newline-per-chained-call': [2, {ignoreChainWithDepth: 4}],
-    'no-confusing-arrow': [2, {allowParens: true}],
+    'newline-per-chained-call': [2, { ignoreChainWithDepth: 4 }],
+    'no-confusing-arrow': [2, { allowParens: true }],
 
     // Disabled because test fixtures' dependencies are not installed, which
     // causes this rule to fail some tests.
     'node/no-missing-require': 0,
-    'node/no-unsupported-features': 0,
+    'node/no-unsupported-features/es-syntax': 0,
 
     'no-console': 1,
+    'object-curly-spacing': 1,
     'operator-linebreak': [1, 'before'],
     'space-before-function-paren': [2, 'never'],
 

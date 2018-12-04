@@ -50,7 +50,7 @@ test('test github repos that use @kenan/eslint-config', (t) => {
 
         function gitClone(cb) {
           const args = ['clone', '--depth', 1, url, path.join(TMP, name)];
-          spawn(GIT, args, {stdio: 'ignore'}, (err) => {
+          spawn(GIT, args, { stdio: 'ignore' }, (err) => {
             if (err) {
               err.message += ` (git clone) (${name})`;
             }
@@ -60,7 +60,7 @@ test('test github repos that use @kenan/eslint-config', (t) => {
 
         function gitPull(cb) {
           const args = ['pull'];
-          spawn(GIT, args, {cwd: folder, stdio: 'ignore'}, (err) => {
+          spawn(GIT, args, { cwd: folder, stdio: 'ignore' }, (err) => {
             if (err) {
               err.message += ` (git pull) (${name})`;
             }
@@ -73,7 +73,7 @@ test('test github repos that use @kenan/eslint-config', (t) => {
           if (pkg.args) {
             args.push.apply(args, pkg.args);
           }
-          spawn(LINT, args, {cwd: folder}, (err) => {
+          spawn(LINT, args, { cwd: folder }, (err) => {
             const str = `${name} (${url})`;
             if (err) {
               t.fail(str);
