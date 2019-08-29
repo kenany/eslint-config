@@ -12,6 +12,7 @@ module.exports = {
     'array-callback-return': 2,
     'array-element-newline': 0,
     'arrow-body-style': [2, 'as-needed', { requireReturnForObjectLiteral: false }],
+    'arrow-parens': [2, 'always'],
     'brace-style': [2, 'stroustrup', { allowSingleLine: true }],
     'class-methods-use-this': 2,
     'id-blacklist': 0,
