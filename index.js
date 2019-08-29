@@ -8,10 +8,22 @@ module.exports = {
     'semistandard'
   ],
   rules: {
+    'array-bracket-newline': [1, 'consistent'],
     'array-callback-return': 2,
     'brace-style': [2, 'stroustrup', { allowSingleLine: true }],
     'class-methods-use-this': 2,
     'id-blacklist': 0,
+    'linebreak-style': [2, 'unix'],
+    'max-lines': 0,
+    'max-statements-per-line': 0,
+    'multiline-ternary': 0,
+    'newline-before-return': 0,
+    'newline-per-chained-call': [2, { ignoreChainWithDepth: 4 }],
+    'no-confusing-arrow': [2, { allowParens: true }],
+    'no-console': 1,
+    'object-curly-spacing': 1,
+    'operator-linebreak': [1, 'before'],
+    'space-before-function-paren': [2, 'never'],
 
     'import/default': 0,
     'import/dynamic-import-chunkname': 0,
@@ -49,23 +61,10 @@ module.exports = {
     'import/prefer-default-export': 0,
     'import/unambiguous': 0,
 
-    'linebreak-style': [2, 'unix'],
-    'max-lines': 0,
-    'max-statements-per-line': 0,
-    'multiline-ternary': 0,
-    'newline-before-return': 0,
-    'newline-per-chained-call': [2, { ignoreChainWithDepth: 4 }],
-    'no-confusing-arrow': [2, { allowParens: true }],
-
     // Disabled because test fixtures' dependencies are not installed, which
     // causes this rule to fail some tests.
     'node/no-missing-require': 0,
     'node/no-unsupported-features/es-syntax': 0,
-
-    'no-console': 1,
-    'object-curly-spacing': 1,
-    'operator-linebreak': [1, 'before'],
-    'space-before-function-paren': [2, 'never'],
 
     'promise/prefer-await-to-callbacks': 0,
     'promise/prefer-await-to-then': 0
