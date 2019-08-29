@@ -22,6 +22,8 @@ module.exports = {
     'class-methods-use-this': 2,
     'complexity': 0,
     'consistent-return': 1,
+    'consistent-this': 0,
+    'default-case': [1, { commentPattern: '^no default$' }],
     'id-blacklist': 0,
     'linebreak-style': [2, 'unix'],
     'max-lines': 0,
