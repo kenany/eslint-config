@@ -13,6 +13,7 @@ module.exports = {
     'array-element-newline': 0,
     'arrow-body-style': [2, 'as-needed', { requireReturnForObjectLiteral: false }],
     'arrow-parens': [2, 'always'],
+    'block-scoped-var': 2,
     'brace-style': [2, 'stroustrup', { allowSingleLine: true }],
     'class-methods-use-this': 2,
     'id-blacklist': 0,
