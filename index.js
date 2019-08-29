@@ -24,6 +24,7 @@ module.exports = {
     'consistent-return': 1,
     'consistent-this': 0,
     'default-case': [1, { commentPattern: '^no default$' }],
+    'dot-notation': [1, { allowKeywords: true }],
     'id-blacklist': 0,
     'linebreak-style': [2, 'unix'],
     'max-lines': 0,
