@@ -1,3 +1,5 @@
+/* eslint quote-props: 0 */
+
 module.exports = {
   extends: [
     'eslint:recommended',
@@ -15,7 +17,11 @@ module.exports = {
     'arrow-parens': [2, 'always'],
     'block-scoped-var': 2,
     'brace-style': [2, 'stroustrup', { allowSingleLine: true }],
+    'callback-return': 0,
+    'capitalized-comments': 0,
     'class-methods-use-this': 2,
+    'complexity': 0,
+    'consistent-return': 1,
     'id-blacklist': 0,
     'linebreak-style': [2, 'unix'],
     'max-lines': 0,

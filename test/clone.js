@@ -34,7 +34,8 @@ test('test github repos that use @kenan/eslint-config', (t) => {
       fs.access(path.resolve(TMP, name), fs.R_OK | fs.W_OK, (err) => {
         downloadPackage((err) => {
           if (err) {
-            return cb(err);
+            cb(err);
+            return;
           }
           runLint(cb);
         });
