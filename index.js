@@ -10,6 +10,8 @@ module.exports = {
   rules: {
     'array-bracket-newline': [1, 'consistent'],
     'array-callback-return': 2,
+    'array-element-newline': 0,
+    'arrow-body-style': [2, 'as-needed', { requireReturnForObjectLiteral: false }],
     'brace-style': [2, 'stroustrup', { allowSingleLine: true }],
     'class-methods-use-this': 2,
     'id-blacklist': 0,
