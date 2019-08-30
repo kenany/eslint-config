@@ -29,6 +29,8 @@ module.exports = {
     'func-names': 0,
     'func-style': 0,
     'function-paren-newline': [2, 'consistent'],
+    'global-require': 0,
+    'guard-for-in': 2,
     'id-blacklist': 0,
     'linebreak-style': [2, 'unix'],
     'max-lines': 0,
