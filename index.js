@@ -41,6 +41,14 @@ module.exports = {
     'linebreak-style': [2, 'unix'],
     'lines-around-comment': 0,
     'max-classes-per-file': [2, 1],
+    'max-depth': 0,
+    'max-len': [1, 80, 2, {
+      ignoreComments: false,
+      ignoreRegExpLiterals: true,
+      ignoreStrings: true,
+      ignoreTemplateLiterals: true,
+      ignoreUrls: true
+    }],
     'max-lines': 0,
     'max-statements-per-line': 0,
     'multiline-ternary': 0,
