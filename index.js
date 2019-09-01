@@ -58,6 +58,7 @@ module.exports = {
     'no-console': 1,
     'object-curly-spacing': 1,
     'operator-linebreak': [1, 'before'],
+    'semi-style': [2, 'last'],
     'space-before-function-paren': [2, 'never'],
 
     'import/dynamic-import-chunkname': 0,
