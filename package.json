@@ -20,7 +20,6 @@
     "find-unused": "eslint-find-rules --unused",
     "pretest": "npm run -s lint",
     "test": "tape test/*.js",
-    "prepublish": "(in-install || npm run find-unused) && (not-in-publish || npm test)",
     "lint": "eslint *.js test/*.js"
   },
   "dependencies": {
@@ -29,8 +28,7 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "in-publish": "^2.0.0"
+    "eslint-plugin-standard": "^4.0.0"
   },
   "devDependencies": {
     "@kenan/renovate-config": "1.1.1",
