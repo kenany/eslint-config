@@ -1,15 +1,15 @@
-name: Node.js CI
+name: nodejs
 on: [pull_request, push]
 jobs:
   build:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        node-version: [8, 10, 12]
+        node-version: [10, 12]
         os: [ubuntu-latest, macOS-latest]
     steps:
     - uses: actions/checkout@v2
-    - name: Node.js ${{ matrix.node-version }}
+    - name: Node.js v${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
