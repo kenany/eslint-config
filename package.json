@@ -39,7 +39,7 @@
     "lodash.isplainobject": "4.0.6",
     "mkdirp": "1.0.4",
     "run-parallel-limit": "1.0.5",
-    "standard-engine": "12.0.0",
+    "standard-engine": "12.1.0",
     "tape": "5.0.1"
   },
   "peerDependencies": {
