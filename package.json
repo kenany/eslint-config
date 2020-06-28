@@ -19,6 +19,7 @@
   "scripts": {
     "find-unused": "eslint-find-rules --unused",
     "pretest": "npm run -s lint",
+    "release": "semantic-release",
     "test": "tape test/*.js",
     "lint": "eslint *.js test/*.js"
   },
@@ -32,6 +33,9 @@
   },
   "devDependencies": {
     "@kenan/renovate-config": "1.1.1",
+    "@semantic-release/changelog": "5.0.1",
+    "@semantic-release/git": "9.0.0",
+    "conventional-changelog-conventionalcommits": "4.3.0",
     "cross-spawn": "7.0.3",
     "eslint": "7.3.1",
     "eslint-find-rules": "3.5.0",
@@ -39,6 +43,7 @@
     "lodash.isplainobject": "4.0.6",
     "mkdirp": "1.0.4",
     "run-parallel-limit": "1.0.5",
+    "semantic-release": "17.1.1",
     "standard-engine": "12.1.0",
     "tape": "5.0.1"
   },
