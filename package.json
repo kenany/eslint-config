@@ -44,7 +44,7 @@
     "mkdirp": "1.0.4",
     "run-parallel-limit": "1.0.5",
     "semantic-release": "17.2.2",
-    "standard-engine": "12.1.0",
+    "standard-engine": "14.0.1",
     "tape": "5.0.1"
   },
   "peerDependencies": {
