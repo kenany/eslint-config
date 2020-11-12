@@ -42,7 +42,7 @@
     "graceful-fs": "4.2.4",
     "lodash.isplainobject": "4.0.6",
     "mkdirp": "1.0.4",
-    "run-parallel-limit": "1.0.5",
+    "run-parallel-limit": "1.0.6",
     "semantic-release": "17.2.2",
     "standard-engine": "14.0.1",
     "tape": "5.0.1"
