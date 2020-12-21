@@ -1,3 +1,10 @@
+### [8.0.2](https://github.com/KenanY/eslint-config/compare/8.0.1...8.0.2) (2020-12-21)
+
+
+### Bug Fixes
+
+* **deps:** eslint-plugin-node@9.2.0 ([7ef1aef](https://github.com/KenanY/eslint-config/commit/7ef1aef472d69d7ae1c588276ada29e3628abcc4))
+
 ### [8.0.1](https://github.com/KenanY/eslint-config/compare/8.0.0...8.0.1) (2020-12-20)
 
 
