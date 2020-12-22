@@ -1,3 +1,10 @@
+### [8.0.3](https://github.com/KenanY/eslint-config/compare/8.0.2...8.0.3) (2020-12-22)
+
+
+### Bug Fixes
+
+* **deps:** eslint-plugin-promise@4.2.1 ([71e640b](https://github.com/KenanY/eslint-config/commit/71e640b0dc64362ebc18e5ee5df0724e1cfab279))
+
 ### [8.0.2](https://github.com/KenanY/eslint-config/compare/8.0.1...8.0.2) (2020-12-21)
 
 
