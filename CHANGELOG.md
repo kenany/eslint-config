@@ -1,3 +1,15 @@
+## [9.0.0](https://github.com/KenanY/eslint-config/compare/8.0.4...9.0.0) (2021-05-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** Node.js v10 is no longer supported. Several rules have
+been changed in `standard` 16.
+
+### Features
+
+* **deps:** eslint-config-standard@16.0.2 ([8861bc7](https://github.com/KenanY/eslint-config/commit/8861bc7eb8abe0ed0c8d469414135e989915c981))
+
 ### [8.0.4](https://github.com/KenanY/eslint-config/compare/8.0.3...8.0.4) (2020-12-23)
 
 

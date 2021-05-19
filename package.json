@@ -1,6 +1,6 @@
 {
   "name": "@kenan/eslint-config",
-  "version": "8.0.4",
+  "version": "9.0.0",
   "description": "KenanY's eslint config",
   "keywords": [
     "eslint-config"
