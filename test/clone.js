@@ -72,7 +72,7 @@ test('test github repos that use @kenan/eslint-config', (t) => {
         function runLint(cb) {
           const args = ['--verbose'];
           if (pkg.args) {
-            args.push.apply(args, pkg.args);
+            args.push(...pkg.args);
           }
           spawn(LINT, args, { cwd: folder }, (err) => {
             const str = `${name} (${url})`;
@@ -104,10 +104,9 @@ function spawn(command, args, opts, cb) {
   child.on('close', (code) => {
     if (code !== 0) {
       cb(new Error('non-zero exit code: ' + code));
+      return;
     }
-    else {
-      cb(null);
-    }
+    cb(null);
   });
   return child;
 }

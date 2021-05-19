@@ -5,7 +5,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        node-version: [10, 12, 14]
+        node-version: [12, 14, 16]
         os: [ubuntu-latest, macOS-latest]
     steps:
     - name: Node.js v${{ matrix.node-version }}
@@ -22,6 +22,5 @@ jobs:
       with:
         useLockFile: false
     - run: npm ls --depth 0
-      continue-on-error: true
     - name: Test
       run: npm test

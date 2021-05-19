@@ -56,6 +56,7 @@ module.exports = {
     'newline-per-chained-call': [2, { ignoreChainWithDepth: 4 }],
     'no-confusing-arrow': [2, { allowParens: true }],
     'no-console': 1,
+    'no-var': 1,
     'object-curly-spacing': 1,
     'operator-linebreak': [1, 'before'],
     'semi-style': [2, 'last'],
@@ -71,7 +72,6 @@ module.exports = {
     'import/group-exports': 0,
     'import/max-dependencies': 0,
     'import/newline-after-import': 2,
-    'import/no-absolute-path': 2,
     'import/no-amd': 2,
     'import/no-anonymous-default-export': 0,
     'import/no-commonjs': 0,
@@ -98,6 +98,7 @@ module.exports = {
 
     // Disabled because test fixtures' dependencies are not installed, which
     // causes this rule to fail some tests.
+    'node/no-missing-import': 0,
     'node/no-missing-require': 0,
     'node/no-unsupported-features/es-syntax': 0,
 

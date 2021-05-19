@@ -16,6 +16,9 @@
   "directories": {
     "test": "test"
   },
+  "engines": {
+    "node": "12 || 14 || >=16"
+  },
   "scripts": {
     "find-unused": "eslint-find-rules --unused",
     "pretest": "npm run -s lint",
@@ -25,11 +28,14 @@
   },
   "dependencies": {
     "eslint-config-semistandard": "^15.0.1",
-    "eslint-config-standard": "^14.1.1",
+    "eslint-config-standard": "^16.0.2",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-node": "^9.2.0",
+    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.1.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.0.0"
   },
   "devDependencies": {
     "@kenan/renovate-config": "^1.5.0",
@@ -46,8 +52,5 @@
     "semantic-release": "17.4.2",
     "standard-engine": "14.0.1",
     "tape": "5.2.2"
-  },
-  "peerDependencies": {
-    "eslint": "^7.0.0"
   }
 }
