@@ -1,3 +1,10 @@
+### [9.0.1](https://github.com/KenanY/eslint-config/compare/9.0.0...9.0.1) (2021-05-24)
+
+
+### Bug Fixes
+
+* **deps:** eslint-plugin-promise@5.1.0 ([99987c9](https://github.com/KenanY/eslint-config/commit/99987c978478e8cf6a65d30537138aa42099ac24))
+
 ## [9.0.0](https://github.com/KenanY/eslint-config/compare/8.0.4...9.0.0) (2021-05-19)
 
 
