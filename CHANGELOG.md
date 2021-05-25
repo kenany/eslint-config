@@ -1,3 +1,10 @@
+### [9.0.3](https://github.com/KenanY/eslint-config/compare/9.0.2...9.0.3) (2021-05-25)
+
+
+### Bug Fixes
+
+* **deps:** eslint-config-standard@16.0.3 ([5b71c02](https://github.com/KenanY/eslint-config/commit/5b71c026f3e6a49377c0d946ea8701686dc924b9))
+
 ### [9.0.2](https://github.com/KenanY/eslint-config/compare/9.0.1...9.0.2) (2021-05-24)
 
 
