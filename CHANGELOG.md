@@ -1,3 +1,10 @@
+### [9.0.4](https://github.com/KenanY/eslint-config/compare/9.0.3...9.0.4) (2021-08-03)
+
+
+### Bug Fixes
+
+* **deps:** eslint-plugin-import@2.23.4 ([f8dba99](https://github.com/KenanY/eslint-config/commit/f8dba991637ea25e337f70f46d1b9fc9808c9a40))
+
 ### [9.0.3](https://github.com/KenanY/eslint-config/compare/9.0.2...9.0.3) (2021-05-25)
 
 
