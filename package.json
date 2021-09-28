@@ -40,7 +40,7 @@
   "devDependencies": {
     "@kenan/renovate-config": "^1.5.0",
     "@semantic-release/changelog": "5.0.1",
-    "@semantic-release/git": "9.0.0",
+    "@semantic-release/git": "9.0.1",
     "conventional-changelog-conventionalcommits": "4.6.0",
     "cross-spawn": "7.0.3",
     "eslint": "^7.32.0",
@@ -49,7 +49,7 @@
     "lodash.isplainobject": "4.0.6",
     "mkdirp": "1.0.4",
     "run-parallel-limit": "1.1.0",
-    "semantic-release": "17.4.4",
+    "semantic-release": "17.4.7",
     "standard-engine": "14.0.1",
     "tape": "5.3.1"
   }
