@@ -27,7 +27,7 @@
     "lint": "eslint *.js test/*.js"
   },
   "dependencies": {
-    "eslint-config-semistandard": "^15.0.1",
+    "eslint-config-semistandard": "^16.0.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-node": "^11.1.0",
