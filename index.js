@@ -60,7 +60,11 @@ module.exports = {
     'object-curly-spacing': 1,
     'operator-linebreak': [1, 'before'],
     'semi-style': [2, 'last'],
-    'space-before-function-paren': [2, 'never'],
+    'space-before-function-paren': [2, {
+      'anonymous': 'never',
+      'named': 'never',
+      'asyncArrow': 'always'
+    }],
 
     'import/dynamic-import-chunkname': 0,
     'import/exports-last': 0,
