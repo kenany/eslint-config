@@ -4,20 +4,20 @@ const eslint = require('eslint');
 
 const eslintconfig = require('../');
 
-test('exports an object', function(t) {
+test('exports an object', (t) => {
   t.plan(2);
   t.ok(isPlainObject(eslintconfig));
   t.ok(isPlainObject(eslintconfig.rules));
 });
 
-test('valid rule syntax', function(t) {
+test('valid rule syntax', async (t) => {
   t.plan(1);
 
-  const cli = new eslint.CLIEngine({
+  const cli = new eslint.ESLint({
     useEslintrc: false,
-    configFile: '.eslintrc.js'
+    overrideConfigFile: '.eslintrc.js'
   });
 
   const code = 'var foo = 1;\nvar bar = function() {};\nbar(foo);\n';
-  t.equal(cli.executeOnText(code).errorCount, 0);
+  t.equal((await cli.lintText(code))[0].errorCount, 0);
 });
