@@ -44,7 +44,7 @@
     "cross-spawn": "7.0.3",
     "eslint": "^7.32.0",
     "eslint-find-rules": "3.6.1",
-    "graceful-fs": "4.2.8",
+    "graceful-fs": "4.2.9",
     "lodash.isplainobject": "4.0.6",
     "mkdirp": "1.0.4",
     "run-parallel-limit": "1.1.0",
