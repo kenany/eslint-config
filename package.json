@@ -50,6 +50,6 @@
     "run-parallel-limit": "1.1.0",
     "semantic-release": "19.0.2",
     "standard-engine": "14.0.1",
-    "tape": "5.5.0"
+    "tape": "5.5.2"
   }
 }
