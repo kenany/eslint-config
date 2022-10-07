@@ -2,6 +2,7 @@
 
 const eslint = require('eslint');
 const path = require('path');
+
 const pkg = require('../package.json');
 
 require('standard-engine').cli({
@@ -10,6 +11,6 @@ require('standard-engine').cli({
   tagline: 'catchphrase!',
   eslint: eslint,
   eslintConfig: {
-    configFile: path.resolve(__dirname, '..', 'index.js')
+    overrideConfigFile: path.resolve(__dirname, '..', 'index.js')
   }
 });
