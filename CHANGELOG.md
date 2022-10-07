@@ -1,3 +1,24 @@
+## [10.0.0](https://github.com/KenanY/eslint-config/compare/9.0.4...10.0.0) (2022-10-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v12 is no longer supported.
+* **deps:** eslint v8 is now required.
+
+### Features
+
+* **deps:** eslint@^8.24.0 ([e184bab](https://github.com/KenanY/eslint-config/commit/e184bab72f2cb7349db4db07aba08a9365bd7342))
+* drop Node.js v12 support ([f9d9f21](https://github.com/KenanY/eslint-config/commit/f9d9f21168fd4b9a4a1fa8506f491bbb04d4e98a))
+
+
+### Bug Fixes
+
+* **deps:** eslint-config-semistandard@^17.0.0 ([79cbd06](https://github.com/KenanY/eslint-config/commit/79cbd062f9008284267c9851f7897d8c1bf4282a))
+* **deps:** eslint-config-standard@^17.0.0 ([e4bd5a4](https://github.com/KenanY/eslint-config/commit/e4bd5a4f5efb18b1c207c873d52831447a5f5c6c))
+* **deps:** eslint-plugin-import@^2.26.0 ([c3a90d2](https://github.com/KenanY/eslint-config/commit/c3a90d218b7c3f11fd821d81fe7b24e979abf828))
+* **deps:** eslint-plugin-promise@^6.0.1 ([1655271](https://github.com/KenanY/eslint-config/commit/16552711a6fe6d6aa8f02b87f12e659cd7ecf17d))
+
 ### [9.0.4](https://github.com/KenanY/eslint-config/compare/9.0.3...9.0.4) (2021-08-03)
 
 
