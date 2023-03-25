@@ -46,7 +46,7 @@
     "eslint-find-rules": "^4.1.0",
     "graceful-fs": "4.2.11",
     "lodash.isplainobject": "4.0.6",
-    "mkdirp": "1.0.4",
+    "mkdirp": "2.1.6",
     "run-parallel-limit": "1.1.0",
     "semantic-release": "20.1.1",
     "standard-engine": "^15.0.0",
