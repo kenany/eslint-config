@@ -35,14 +35,14 @@
     "eslint-plugin-standard": "^4.1.0"
   },
   "peerDependencies": {
-    "eslint": "^8.0.0"
+    "eslint": "^8.39.0"
   },
   "devDependencies": {
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "conventional-changelog-conventionalcommits": "5.0.0",
     "cross-spawn": "7.0.3",
-    "eslint": "^8.24.0",
+    "eslint": "^8.39.0",
     "eslint-find-rules": "^4.1.0",
     "graceful-fs": "4.2.11",
     "lodash.isplainobject": "4.0.6",
