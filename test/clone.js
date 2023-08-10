@@ -1,10 +1,11 @@
-const crossSpawn = require('cross-spawn');
-const mkdirp = require('mkdirp');
 const path = require('path');
-const test = require('tape');
 const os = require('os');
-const parallelLimit = require('run-parallel-limit');
+
+const crossSpawn = require('cross-spawn');
 const fs = require('graceful-fs');
+const { mkdirp } = require('mkdirp');
+const parallelLimit = require('run-parallel-limit');
+const test = require('tape');
 
 const GIT = 'git';
 const TMP = path.resolve(__dirname, '..', 'tmp');
