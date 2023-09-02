@@ -4,11 +4,10 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:import/recommended',
-    'plugin:import/react',
-    'plugin:node/recommended',
     'plugin:promise/recommended',
     'semistandard'
   ],
+  reportUnusedDisableDirectives: true,
   rules: {
     'array-bracket-newline': [1, 'consistent'],
     'array-callback-return': 2,
@@ -100,13 +99,23 @@ module.exports = {
     'import/prefer-default-export': 2,
     'import/unambiguous': 0,
 
-    // Disabled because test fixtures' dependencies are not installed, which
-    // causes this rule to fail some tests.
-    'node/no-missing-import': 0,
-    'node/no-missing-require': 0,
-    'node/no-unsupported-features/es-syntax': 0,
+    'n/no-restricted-require': 0,
+    'n/no-restricted-import': 0,
 
+    'promise/always-return': 2,
+    'promise/avoid-new': 2,
+    'promise/catch-or-return': [2, { allowFinally: true }],
+    'promise/no-callback-in-promise': 2,
+    'promise/no-multiple-resolved': 2,
+    'promise/no-native': 0,
+    'promise/no-nesting': 2,
+    'promise/no-new-statics': 2,
+    'promise/no-promise-in-callback': 2,
+    'promise/no-return-in-finally': 2,
+    'promise/no-return-wrap': 2,
+    'promise/param-names': 2,
     'promise/prefer-await-to-callbacks': 0,
-    'promise/prefer-await-to-then': 0
+    'promise/prefer-await-to-then': 2,
+    'promise/valid-params': 2
   }
 };

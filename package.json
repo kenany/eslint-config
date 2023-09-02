@@ -5,19 +5,23 @@
   "keywords": [
     "eslint-config"
   ],
-  "repository": "KenanY/eslint-config",
+  "repository": "github:kenany/eslint-config",
   "license": "MIT",
   "author": "Kenan Yildirim <kenan@kenany.me> (https://kenany.me/)",
   "main": "index.js",
   "files": [
     "index.js",
+    "node.js",
+    "react.js",
+    "ts-for-js.js",
+    "ts.js",
     "LICENSE.txt"
   ],
   "directories": {
     "test": "test"
   },
   "engines": {
-    "node": "14 || 16 || 18 || >=20"
+    "node": "18 || >=20"
   },
   "scripts": {
     "find-unused": "eslint-find-rules --unused",
@@ -27,29 +31,33 @@
     "lint": "eslint *.js test/*.js"
   },
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
     "eslint-config-semistandard": "^17.0.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-node": "^11.1.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-n": "^15.7.0",
     "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-standard": "^4.1.0"
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-standard": "^5.0.0"
   },
   "peerDependencies": {
-    "eslint": "^8.48.0"
+    "eslint": "8"
   },
   "devDependencies": {
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
-    "conventional-changelog-conventionalcommits": "6.1.0",
+    "conventional-changelog-conventionalcommits": "7.0.1",
     "cross-spawn": "7.0.3",
-    "eslint": "^8.48.0",
-    "eslint-find-rules": "^4.1.0",
+    "eslint": "8.48.0",
+    "eslint-find-rules": "4.1.0",
     "graceful-fs": "4.2.11",
     "lodash.isplainobject": "4.0.6",
     "mkdirp": "3.0.1",
     "run-parallel-limit": "1.1.0",
-    "semantic-release": "21.0.7",
-    "standard-engine": "^15.1.0",
+    "semantic-release": "21.1.1",
+    "standard-engine": "15.1.0",
     "tape": "5.6.6"
   }
 }

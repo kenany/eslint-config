@@ -3,5 +3,11 @@
   "extends": [
     "local>kenany/renovate-config",
     ":assignAndReview(kenany)"
+  ],
+  "packageRules": [
+    {
+      "matchDepTypes": ["peerDependencies"],
+      "enabled": false
+    }
   ]
 }
