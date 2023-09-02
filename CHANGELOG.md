@@ -1,3 +1,19 @@
+## [11.0.0](https://github.com/kenany/eslint-config/compare/10.0.2...11.0.0) (2023-09-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v14 and v16 are no longer supported.
+
+### Features
+
+* drop Node.js v14 and v16, add React and TS configs ([ccbd2cb](https://github.com/kenany/eslint-config/commit/ccbd2cb89419007e6cce39d84e168d683ce1a081))
+
+
+### Bug Fixes
+
+* enable npm provenance ([56a7336](https://github.com/kenany/eslint-config/commit/56a7336245d85b467e5cb72e0b279fd4dd2f13af))
+
 ## [10.0.2](https://github.com/KenanY/eslint-config/compare/10.0.1...10.0.2) (2023-01-22)
 
 
