@@ -1,3 +1,12 @@
+## [11.0.1](https://github.com/kenany/eslint-config/compare/11.0.0...11.0.1) (2023-09-15)
+
+
+### Bug Fixes
+
+* **deps:** remove eslint-plugin-standard ([185835f](https://github.com/kenany/eslint-config/commit/185835f769b63b5d31a0fa4c42672f06ce6b7585))
+* **deps:** typescript-eslint monorepo v6.7.0 ([942c375](https://github.com/kenany/eslint-config/commit/942c3757557109674267fc769808625fa678d381))
+* **doc:** add some sample configs ([be978ce](https://github.com/kenany/eslint-config/commit/be978cee86f0b3c1324a253a91f990370f4bb920))
+
 ## [11.0.0](https://github.com/kenany/eslint-config/compare/10.0.2...11.0.0) (2023-09-02)
 
 
