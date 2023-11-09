@@ -1,3 +1,16 @@
+## [11.1.0](https://github.com/kenany/eslint-config/compare/11.0.2...11.1.0) (2023-11-09)
+
+
+### Features
+
+* enable no-constant-binary-expression ([8e7e537](https://github.com/kenany/eslint-config/commit/8e7e537212f2830823b08e32979d906281207ce1))
+
+
+### Bug Fixes
+
+* **deps:** eslint-plugin-import@2.29.0 ([d607e8e](https://github.com/kenany/eslint-config/commit/d607e8e2e022770fd14fc6d5b84261917d06b4e6))
+* **deps:** typescript-eslint 6.9.1 ([6d7c724](https://github.com/kenany/eslint-config/commit/6d7c724cc0ec9baef01216655398826bc4e7345d))
+
 ## [11.0.2](https://github.com/kenany/eslint-config/compare/11.0.1...11.0.2) (2023-10-01)
 
 
