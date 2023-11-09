@@ -55,6 +55,7 @@ module.exports = {
     'newline-per-chained-call': [2, { ignoreChainWithDepth: 4 }],
     'no-confusing-arrow': [2, { allowParens: true }],
     'no-console': 1,
+    'no-constant-binary-expression': 2,
     'no-var': 1,
     'object-curly-spacing': 1,
     'operator-linebreak': [1, 'before'],
