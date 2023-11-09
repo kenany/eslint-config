@@ -1,5 +1,17 @@
 name: nodejs
-on: [pull_request, push]
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - ready_for_review
+  merge_group:
+permissions:
+  contents: read
 jobs:
   build:
     runs-on: ${{ matrix.os }}
