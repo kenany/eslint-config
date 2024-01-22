@@ -1,3 +1,10 @@
+## [11.1.2](https://github.com/kenany/eslint-config/compare/11.1.1...11.1.2) (2024-01-22)
+
+
+### Bug Fixes
+
+* **deps:** typescript-eslint monorepo ([adc448b](https://github.com/kenany/eslint-config/commit/adc448bbea969ae81d96b93f9b8e92b9cbc00252))
+
 ## [11.1.1](https://github.com/kenany/eslint-config/compare/11.1.0...11.1.1) (2023-11-09)
 
 
