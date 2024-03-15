@@ -22,13 +22,18 @@ module.exports = {
 
         'import/extensions': [2, 'never'],
 
-        '@typescript-eslint/member-ordering': 0,
-        '@typescript-eslint/explicit-module-boundary-types': 0,
+        '@typescript-eslint/adjacent-overload-signatures': 0,
+        '@typescript-eslint/class-methods-use-this': 0,
         '@typescript-eslint/explicit-function-return-type': 0,
+        '@typescript-eslint/explicit-module-boundary-types': 0,
+        '@typescript-eslint/member-ordering': 0,
+        '@typescript-eslint/naming-convention': 0,
+        '@typescript-eslint/no-confusing-void-expression': [2, { ignoreArrowShorthand: true }],
+        '@typescript-eslint/no-magic-numbers': 0,
         '@typescript-eslint/no-restricted-imports': 0,
         '@typescript-eslint/no-unused-vars': 0,
-        '@typescript-eslint/adjacent-overload-signatures': 0,
-        '@typescript-eslint/class-methods-use-this': 0
+        '@typescript-eslint/prefer-readonly-parameter-types': 0,
+        '@typescript-eslint/strict-boolean-expressions': 0
       },
 
       settings: {
