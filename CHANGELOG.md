@@ -1,3 +1,10 @@
+## [11.1.6](https://github.com/kenany/eslint-config/compare/11.1.5...11.1.6) (2024-03-15)
+
+
+### Bug Fixes
+
+* adjust react and ts rules ([3737dba](https://github.com/kenany/eslint-config/commit/3737dbaff6c08b23cd0c43d72da3d12b49b7c585))
+
 ## [11.1.5](https://github.com/kenany/eslint-config/compare/11.1.4...11.1.5) (2024-03-15)
 
 
