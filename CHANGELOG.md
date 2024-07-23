@@ -1,3 +1,10 @@
+## [11.1.7](https://github.com/kenany/eslint-config/compare/11.1.6...11.1.7) (2024-07-23)
+
+
+### Bug Fixes
+
+* **deps:** eslint-plugin-promise@6.6.0 ([5bd447e](https://github.com/kenany/eslint-config/commit/5bd447e73cbd0fce92f574e5571280e9c64f4b8a))
+
 ## [11.1.6](https://github.com/kenany/eslint-config/compare/11.1.5...11.1.6) (2024-03-15)
 
 
