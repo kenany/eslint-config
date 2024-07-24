@@ -1,3 +1,10 @@
+## [11.1.8](https://github.com/kenany/eslint-config/compare/11.1.7...11.1.8) (2024-07-24)
+
+
+### Bug Fixes
+
+* **deps:** eslint-plugin-react-hooks@4.6.2 ([51d1365](https://github.com/kenany/eslint-config/commit/51d1365c7d02253653a04f43ae1db84abfc7b6f3))
+
 ## [11.1.7](https://github.com/kenany/eslint-config/compare/11.1.6...11.1.7) (2024-07-23)
 
 
