@@ -1,3 +1,10 @@
+## [11.1.9](https://github.com/kenany/eslint-config/compare/11.1.8...11.1.9) (2024-07-25)
+
+
+### Bug Fixes
+
+* **deps:** eslint-plugin-react@7.35.0 ([c3c6afa](https://github.com/kenany/eslint-config/commit/c3c6afa1d45571b1ce233b6ade39488f0ff8f0ce))
+
 ## [11.1.8](https://github.com/kenany/eslint-config/compare/11.1.7...11.1.8) (2024-07-24)
 
 
