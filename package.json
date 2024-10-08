@@ -55,7 +55,7 @@
     "lodash.isplainobject": "4.0.6",
     "mkdirp": "3.0.1",
     "run-parallel-limit": "1.1.0",
-    "semantic-release": "24.1.1",
+    "semantic-release": "24.1.2",
     "standard-engine": "15.1.0",
     "tape": "5.8.1"
   }
