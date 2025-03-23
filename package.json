@@ -50,7 +50,7 @@
     "conventional-changelog-conventionalcommits": "8.0.0",
     "cross-spawn": "7.0.6",
     "eslint": "8.57.1",
-    "eslint-find-rules": "4.2.0",
+    "eslint-find-rules": "5.0.0",
     "graceful-fs": "4.2.11",
     "lodash.isplainobject": "4.0.6",
     "mkdirp": "3.0.1",
