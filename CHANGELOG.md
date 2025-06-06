@@ -1,3 +1,9 @@
+## [11.1.15](https://github.com/kenany/eslint-config/compare/11.1.14...11.1.15) (2025-06-06)
+
+### Bug Fixes
+
+* **deps:** eslint-plugin-react-hooks@5.2.0 ([a006c65](https://github.com/kenany/eslint-config/commit/a006c65a9d17292096d4a6dc0a5be7a05037caca))
+
 ## [11.1.14](https://github.com/kenany/eslint-config/compare/11.1.13...11.1.14) (2025-06-06)
 
 ### Bug Fixes
