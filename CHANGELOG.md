@@ -1,3 +1,9 @@
+## [11.1.18](https://github.com/kenany/eslint-config/compare/11.1.17...11.1.18) (2025-07-22)
+
+### Bug Fixes
+
+* **deps:** eslint-plugin-import@2.32.0 ([e0e36db](https://github.com/kenany/eslint-config/commit/e0e36dbf5a510ac696c173cc5b59acbd47c9d0e9))
+
 ## [11.1.17](https://github.com/kenany/eslint-config/compare/11.1.16...11.1.17) (2025-07-21)
 
 ### Bug Fixes
